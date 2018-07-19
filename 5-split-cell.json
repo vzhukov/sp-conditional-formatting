@@ -1,0 +1,121 @@
+{
+    "elmType": "div",
+    "style": {
+        "width": "100%",
+        "display": "table"
+    },
+    "children": [
+        {
+            "elmType": "div",
+            "style": {
+                "display": "table-row"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color": "yellow",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "1"
+                        ]
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color": "#bad80a",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "2"
+                        ]
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color":"#00B294",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "3"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "elmType": "div",
+            "style": {
+                "display": "table-row"
+            },
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color": "#71afe5",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "4"
+                        ]
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color": "#a6a6a6",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "5"
+                        ]
+                    }
+                },
+                {
+                    "elmType": "div",
+                    "style": {
+                        "display": "table-cell",
+                        "background-color":"#b4a0ff",
+                        "text-align": "center"
+                    },
+                    "txtContent": {
+                        "operator": "+",
+                        "operands": [
+                            "[$ID]",
+                            "-",
+                            "6"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

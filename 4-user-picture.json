@@ -1,0 +1,86 @@
+{
+    "elmType": "div",
+    "children": [
+        {
+            "elmType": "div",
+            "style": {},
+            "children": [
+                {
+                    "elmType": "div",
+                    "style": {
+                        "float": "left",
+                        "margin-right": "5px"
+                    },
+                    "children": [
+                        {
+                            "elmType": "img",
+                            "style": {
+                                "width": "32px",
+                                "display": "inline-block"
+                            },
+                            "attributes": {
+                                "src": {
+                                    "operator": "+",
+                                    "operands": [
+                                        "/_layouts/15/userphoto.aspx?username=",
+                                        "@currentField.email"
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "elmType": "div",
+                    "children": [
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "word-wrap": "initial",
+                                "white-space": "nowrap"
+                            },
+                            "children": [
+                                {
+                                    "elmType": "a",
+                                    "txtContent": "@currentField.title",
+                                    "attributes": {
+                                        "target": "_blank",
+                                        "href": {
+                                            "operator": "+",
+                                            "operands": [
+                                                "/_layouts/15/userdisp.aspx?ID=",
+                                                "@currentField.id"
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "elmType": "div",
+                            "style": {
+                                "word-wrap": "initial",
+                                "white-space": "nowrap"
+                            },
+                            "children": [
+                                {
+                                    "elmType": "a",
+                                    "txtContent": "@currentField.email",
+                                    "attributes": {
+                                        "href": {
+                                            "operator": "+",
+                                            "operands": [
+                                                "mailto:",
+                                                "@currentField.email"
+                                            ]
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

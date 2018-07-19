@@ -1,0 +1,9 @@
+{
+    "elmType": "div",
+    "style": {
+        "word-wrap": "initial",
+        "white-space": "nowrap",
+        "overflow": "hidden"
+    },
+    "txtContent": "@currentField"
+}

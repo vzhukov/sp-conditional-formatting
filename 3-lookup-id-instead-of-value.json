@@ -1,0 +1,27 @@
+{
+    "elmType": "a",
+    "txtContent": {
+        "operator": "?",
+        "operands": [
+            {
+                "operator": "==",
+                "operands": [
+                    "@currentField.lookupValue",
+                    ""
+                ]
+            },
+            "@currentField.lookupId",
+            "@currentField.lookupValue"
+        ]
+    },
+    "attributes": {
+        "href": {
+            "operator": "+",
+            "operands": [
+                "/lists/FormattedColumnsteams/DispForm.aspx?ID=",
+                "@currentField.lookupId"
+            ]
+        },
+        "target": "_blank"
+    }
+}

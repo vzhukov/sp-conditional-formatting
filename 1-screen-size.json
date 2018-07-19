@@ -1,0 +1,17 @@
+{
+    "elmType": "div",
+    "txtContent": {
+      "operator": "?",
+      "operands": [
+        {
+          "operator": "<=",
+          "operands": [
+            "@window.innerWidth",
+            900
+          ]
+        },
+        "...",
+        "@currentField"
+      ]
+    }
+  }
