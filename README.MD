@@ -1,4 +1,4 @@
-# SharePoint Column Formatting. Smples
+# SharePoint Column Formatting. Samples
 
 ## Sample #1. Hide value on small screen
 ### JSON: [1-screen-size.json](1-screen-size.json)
